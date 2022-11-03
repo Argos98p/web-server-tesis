@@ -3,6 +3,6 @@ web:
   volumes:
    - ./templates:/etc/nginx/templates
    - ./nginx.conf:/etc/nginx/nginx.conf
-   - ./test:/var/www/test
+   - ./media:/var/www/media
   ports:
    - "8080:80"
